@@ -38,6 +38,15 @@
   transition: .6s;
 }
 
+.menu-line3 {
+  display:block;
+  width: 90%;
+  height: 2px;
+  margin-top: .7rem;
+  background: #000;
+  transition: .6s;
+}
+
 .rotate{
   transform: rotateZ(180deg)
 }
@@ -50,6 +59,11 @@
   width: 100%;
   transform:  translate(0,-0.8rem) rotateZ(-45deg);
 }
+
+.rotate3 {
+display:none;
+}
+
 .nav-page1{
   position: fixed;
   top: 0;
@@ -86,9 +100,10 @@
 <div class="loader-section section-right"></div>
 </div>
 
-<div id='menu bg-primary'>
+<div id='menu'>
 <div class='menu-line1'></div>
 <div class='menu-line2'></div>
+<div class='menu-line3'></div>
 </div>
 <div class='nav-page1'>
 <span>HOME</span>
@@ -111,6 +126,7 @@ $('#menu').classList.toggle('rotate')
 $('.nav-page1').classList.toggle('transform')
 $('.menu-line1').classList.toggle('rotate1')
 $('.menu-line2').classList.toggle('rotate2')
+$('.menu-line3').classList.toggle('rotate3')
 }
 }
 </script>
