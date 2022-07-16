@@ -50,8 +50,8 @@
   border:var(--line-width) solid transparent;
   border-top-color: var(--inner-line-color);
   border-radius:100%;
-  -webkit-animation: spin 3s linear infinite;
-          animation: spin 3s linear infinite;
+  -webkit-animation: spin 1s linear infinite;
+          animation: spin 1s linear infinite;
 }
 
 .loader:after {
@@ -64,8 +64,8 @@
   border:var(--line-width) solid transparent;
   border-top-color: var(--middle-line-color);
   border-radius:100%;
-  -webkit-animation: spin 3s linear infinite;
-          animation: spin 3s linear infinite;
+  -webkit-animation: spin 1s linear infinite;
+          animation: spin 1s linear infinite;
 }
 
 @-webkit-keyframes spin {
@@ -126,20 +126,20 @@
 /* Loaded Styles */ 
 .loaded .loader-wrapper .loader-section.section-left {
   transform: translateX(-100%);
-  transition: all 0.7s 0.3s cubic-bezier(0.645,0.045,0.355,1.000);
+  transition: all 1s 0.6s cubic-bezier(0.645,0.045,0.355,1.000);
 }
 .loaded .loader-wrapper .loader-section.section-right {
   transform: translateX(100%);
-  transition: all 0.7s 0.3s cubic-bezier(0.645,0.045,0.355,1.000);
+  transition: all 1s 0.6s cubic-bezier(0.645,0.045,0.355,1.000);
 }
 .loaded .loader {
   opacity: 0;
-  transition: all 0.3s ease-out;
+  transition: all 0.6s ease-out;
 }
 .loaded .loader-wrapper {
   visibility: hidden;
   transform:translateY(-100%);
-  transition: all .3s 1s ease-out;
+  transition: all .6s 3s ease-out;
 }
 
 </style>
