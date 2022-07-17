@@ -10,8 +10,15 @@
 <style>
 
 .upon {
-position:absolute;
-z-index:15!important;
+  position: fixed;
+  top: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: .5s;
+  z-index: 10;
+  border-radius: 30px;
 }
 
 .blurit {
@@ -59,7 +66,7 @@ z-index:-1!important;
 </div>
 </div>
 
-<div class="d-flex text-uppercase align-items-center upon">
+<div class="text-uppercase upon">
 <h1>
 <span class="typer" id="main" data-words="love,fashion,style,elegant" data-delay="100" data-deleteDelay="1000"></span>
 <span class="cursor" data-owner="main"></span>
