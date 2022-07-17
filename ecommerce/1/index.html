@@ -15,6 +15,23 @@ max-height:100vh;
 max-width:100%;
 }
 
+.menu-line1 .menu-line2 .menu-line3 {
+-webkit-animation: place-glow 1s ease-in-out infinite;
+animation: place-glow 1s ease-in-out infinite;
+}
+
+@-webkit-keyframes placeholder-glow {
+  50% {
+    opacity: 0.2;
+  }
+}
+
+@keyframes placeholder-glow {
+  50% {
+    opacity: 0.2;
+  }
+}
+
 </style>
 </head>
 <body>
@@ -26,7 +43,7 @@ max-width:100%;
 </div>
 
 <div id='menu'>
-<div class='menu-line1 placeholder-glow'></div>
+<div class='menu-line1'></div>
 <div class='menu-line2'></div>
 <div class='menu-line3'></div>
 </div>
