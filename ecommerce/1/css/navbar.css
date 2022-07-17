@@ -39,7 +39,6 @@
 
 .rotate{
   transform: rotateZ(180deg);
-  margin-top: 5px;
   right: 0.5rem;
 }
 
