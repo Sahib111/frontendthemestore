@@ -1,15 +1,16 @@
 #menu{
   position: fixed;
-  right: 1rem;
-  top: 1rem;
-  width: 30px;
-  height: 30px;
+  right: 1.5rem;
+  top: 1.5rem;
+  width: 35px;
+  height: 35px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   transition: .5s;
   z-index: 10;
+  border-radius: 30px;
 }
 
 .menu-line1{
