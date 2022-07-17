@@ -9,12 +9,13 @@
 <link href="./css/index.css" rel="stylesheet"/>
 <style>
 
-.underwear {
-z-index:-1!important;
-max-height:100%;
-max-width:100%;
+.blurit {
+filter:blur(10px);
 }
 
+.underhood {
+z-index:-1!important;
+}
 
 .menu-line1, .menu-line2, .menu-line3 {
 -webkit-mask-image: linear-gradient(130deg, #000 55%, rgba(0, 0, 0, 0.4) 75%, #000 95%);
@@ -71,13 +72,13 @@ box-shadow: 0 0 30px #000;
 <div class='menu-line3'></div>
 </div>
 
-<div class='nav-page1'>
+<div class='nav-page1 bg-white'>
 <span>HOME</span>
 <span>WORK</span>
 <span>ABOUT</span>
 </div>
 
-<div id="carouselExampleFade" class="underhood d-flex carousel slide carousel-fade" data-bs-ride="carousel">
+<div id="carouselExampleFade" class="blurit underhood d-flex carousel slide carousel-fade" data-bs-ride="carousel">
 <div class="carousel-inner">
 <div class="carousel-item active">
 <img src="https://ik.imagekit.io/sahibkapoor111/clock-1274699_1920_U1p624pg_.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1630258996513" class="d-block">
