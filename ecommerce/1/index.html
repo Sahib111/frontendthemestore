@@ -20,8 +20,8 @@ max-width:100%;
 mask-image: linear-gradient(130deg, #000 55%, rgba(0, 0, 0, 0.4) 75%, #000 95%);
 -webkit-mask-size: 200% 100%;
 mask-size: 200% 100%;
--webkit-animation: place-wave 1.5s linear infinite;
-animation: place-wave 1.5s linear infinite;
+-webkit-animation: place-wave 1s linear infinite;
+animation: place-wave 1s linear infinite;
 }
 
 @-webkit-keyframes place-wave {
@@ -29,10 +29,13 @@ animation: place-wave 1.5s linear infinite;
     -webkit-mask-position: -200% 0%;
     mask-position: -200% 0%;
    background:#fff;
+   box-shadow: 0 0 30px #fff;
   }
 
 100%  {
 background:#000;
+box-shadow: 0 0 30px #000;
+
 }
 
 }
@@ -42,10 +45,12 @@ background:#000;
     -webkit-mask-position: -200% 0%;
     mask-position: -200% 0%;
     background:#fff;
+    box-shadow: 0 0 30px #fff;
   }
 
 100%  {
 background:#000;
+box-shadow: 0 0 30px #000;
 }
 }
 
@@ -70,7 +75,7 @@ background:#000;
 <span>ABOUT</span>
 </div>
 
-<div id="carouselExampleFade" class="underwear d-flex carousel slide carousel-fade" data-bs-ride="carousel">
+<div id="carouselExampleFade" class="underhood d-flex carousel slide carousel-fade" data-bs-ride="carousel">
 <div class="carousel-inner">
 <div class="carousel-item active">
 <img src="https://ik.imagekit.io/sahibkapoor111/clock-1274699_1920_U1p624pg_.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1630258996513" class="d-block">
