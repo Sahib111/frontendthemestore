@@ -14,15 +14,15 @@
 }
 
 .menu-line1{
-  width: 70%;
-  height: 3.5px;
+  width: 65%;
+  height: 5px;
   background: #000;
   transition: .6s;
 }
 
 .menu-line2{
-  width: 40%;
-  height: 3.5px;
+  width: 45%;
+  height: 5px;
   margin-top: .6rem;
   background: #000;
   transition: .6s;
@@ -30,8 +30,8 @@
 
 .menu-line3 {
   display:block;
-  width: 10%;
-  height: 3.5px;
+  width: 20%;
+  height: 5px;
   margin-top: .6rem;
   background: #000;
   transition: .6s;
