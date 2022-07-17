@@ -2,8 +2,8 @@
   position: fixed;
   right: 1.5rem;
   top: 1.5rem;
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -15,14 +15,14 @@
 
 .menu-line1{
   width: 70%;
-  height: 2px;
+  height: 3.5px;
   background: #000;
   transition: .6s;
 }
 
 .menu-line2{
   width: 40%;
-  height: 2px;
+  height: 3.5px;
   margin-top: .6rem;
   background: #000;
   transition: .6s;
@@ -30,8 +30,8 @@
 
 .menu-line3 {
   display:block;
-  width: 5%;
-  height: 2px;
+  width: 10%;
+  height: 3.5px;
   margin-top: .6rem;
   background: #000;
   transition: .6s;
