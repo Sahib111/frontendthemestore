@@ -75,7 +75,7 @@ display:none;
   align-items: flex-start;
   color: #212121;
   transform: translate(0,-100%);
-  transition: .5s;
+  transition: 1s;
   z-index:9;
 }
 .nav-page1 span {
